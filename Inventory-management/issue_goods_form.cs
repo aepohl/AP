@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Inventory_management
 {
-    public partial class Form1 : Form
+    public partial class issue_goods_form : Form
     {
-        public Form1()
+        public issue_goods_form()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
